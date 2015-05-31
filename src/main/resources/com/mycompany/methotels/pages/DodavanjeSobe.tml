@@ -1,0 +1,12 @@
+<html t:type="layout" title="TapestryHibernateDemo Index"
+    t:sidebarTitle="Framework Version"
+    xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+    xmlns:p="tapestry:parameter">
+    <t:beaneditform object="soba" exclude="sobaid" >
+    </t:beaneditform>
+    <t:grid source="sobe" exclude="sobaid" add="delete" row="onesoba">
+    <p:deleteCell>
+    <t:actionlink t:id="delete" context="onesoba.sobaid">Delete</t:actionlink>
+    </p:deleteCell>
+    </t:grid>
+</html>

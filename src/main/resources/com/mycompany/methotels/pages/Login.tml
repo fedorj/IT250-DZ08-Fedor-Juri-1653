@@ -1,0 +1,15 @@
+<html t:type="layout" title="PrviTapestryProjekat com.example"
+    xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+    xmlns:p="tapestry:parameter">
+    <div class="row">
+    <div class="span4 offset3">
+    <t:beaneditform t:id="form" object="userLogin" submitlabel="Login" exclude="userid,rola">
+    <t:errors/>
+    <p:pass>
+    <t:label for="pass"/>
+    <t:passwordfield t:id="pass" value="userLogin.pass"/>
+    </p:pass>
+    </t:beaneditform>
+    </div>
+    </div>
+</html>
